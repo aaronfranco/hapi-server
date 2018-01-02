@@ -6,6 +6,9 @@ const AWS = require('aws-sdk');
 // Create a server with a host and port
 const server = Hapi.server({
     host: 'localhost',
+    routes:{
+         cors: true
+    },
     port: 8001
 });
 
@@ -33,7 +36,7 @@ server.route({
                   }
              ]
         }
-   
+
     }
 });
 
