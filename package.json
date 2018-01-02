@@ -1,0 +1,15 @@
+{
+  "name": "hapiserver",
+  "version": "1.0.0",
+  "description": "test server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aaron",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.176.0",
+    "hapi": "^17.2.0"
+  }
+}
